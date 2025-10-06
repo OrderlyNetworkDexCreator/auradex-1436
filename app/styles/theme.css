@@ -1,45 +1,43 @@
 :root {
   --oui-font-family: 'Manrope', sans-serif;
-  --oui-font-size-base: 16px;
+  --oui-font-size-base: 16.5px;
 
-  /* CHAVE: Cores Primárias (Destaque Ciano Neon) */
-  --oui-color-primary: 0 220 255; /* Ciano Neon Principal */
-  --oui-color-primary-light: 100 230 255;
-  --oui-color-primary-darken: 0 180 220;
-  --oui-color-primary-contrast: 0 0 0; /* Contraste preto para texto em ciano */
+  /* colors */
+  --oui-color-primary: 157 0 255;
+  --oui-color-primary-light: 177 40 255;
+  --oui-color-primary-darken: 127 0 225;
+  --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 0 200 255; 
-  --oui-color-link-light: 100 230 255;
+  --oui-color-link: 157 0 255;
+  --oui-color-link-light: 177 40 255;
 
-  --oui-color-secondary: 255 255 255; /* Mantém texto branco */
+  --oui-color-secondary: 255 255 255;
   --oui-color-tertiary: 218 218 218;
   --oui-color-quaternary: 218 218 218;
 
-  /* Status Colors (Mantemos Vermelho e Verde, mas ajustamos o tom para Neon) */
-  --oui-color-danger: 240 84 158; /* Vermelho/Pink Neon */
+  --oui-color-danger: 240 84 158;
   --oui-color-danger-light: 250 143 188;
   --oui-color-danger-darken: 227 63 132;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 34 205 169; /* Verde Água Neon */
+  --oui-color-success: 34 205 169;
   --oui-color-success-light: 90 234 194;
   --oui-color-success-darken: 0 143 120;
   --oui-color-success-contrast: 255 255 255;
-  
+
   --oui-color-warning: 255 191 53;
   --oui-color-warning-light: 255 223 133;
   --oui-color-warning-darken: 255 152 0;
   --oui-color-warning-contrast: 255 255 255;
 
-  /* CHAVE: Cores Base (Fundo Azul Marinho/Quase Preto) */
-  --oui-color-fill: 14 13 18; /* Fundo mais escuro */
+  --oui-color-fill: 14 13 18;
   --oui-color-fill-active: 33 37 51;
 
   --oui-color-base-1: 35 31 49;
   --oui-color-base-2: 28 25 41;
   --oui-color-base-3: 25 22 37;
   --oui-color-base-4: 20 18 29;
-  --oui-color-base-5: 14 13 18; /* Fundo Principal */
+  --oui-color-base-5: 14 13 18;
   --oui-color-base-6: 14 13 18;
   --oui-color-base-7: 51 46 66;
   --oui-color-base-8: 28 25 41;
@@ -54,9 +52,9 @@
   --oui-color-trading-profit: 34 205 169;
   --oui-color-trading-profit-contrast: 255 255 255;
 
-  /* CHAVE: Gradientes (Usando o Ciano Neon) */
-  --oui-gradient-primary-start: 0 180 220;
-  --oui-gradient-primary-end: 0 220 255;
+  /* gradients */
+  --oui-gradient-primary-start: 127 0 225;
+  --oui-gradient-primary-end: 157 0 255;
 
   --oui-gradient-secondary-start: 28 25 41;
   --oui-gradient-secondary-end: 35 31 49;
@@ -67,8 +65,8 @@
   --oui-gradient-danger-start: 227 63 132;
   --oui-gradient-danger-end: 240 84 158;
 
-  --oui-gradient-brand-start: 100 230 255; /* Início do brilho */
-  --oui-gradient-brand-end: 0 200 255; /* Fim do brilho */
+  --oui-gradient-brand-start: 177 40 255;
+  --oui-gradient-brand-end: 157 0 255;
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
@@ -98,5 +96,5 @@
 
 html, body {
   font-family: 'Manrope', sans-serif !important;
-  font-size: 16px !important;
+  font-size: 16.5px !important;
 }
