@@ -29,7 +29,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_SEO_SITE_LANGUAGE": "en",
   "VITE_SEO_SITE_LOCALE": "en_US",
   "VITE_SEO_TWITTER_HANDLE": "@AuraDex",
-  "VITE_SEO_THEME_COLOR": "#c67bf4",
+  "VITE_SEO_THEME_COLOR": "#ad33ff",
   "VITE_SEO_KEYWORDS": "AuraDex, perpetual futures, order book dex, trading, defi, crypto, btc, eth, sol, leverage, low fees, orderly network",
   "VITE_AVAILABLE_LANGUAGES": "en,zh,ja,es,ko,vi,de,fr,ru,id,tr,it,pt,uk,pl,nl",
   "VITE_USE_CUSTOM_PNL_POSTERS": "true",
