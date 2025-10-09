@@ -1,6 +1,6 @@
 :root {
   --oui-font-family: 'Manrope', sans-serif;
-  --oui-font-size-base: 16.5px;
+  --oui-font-size-base: 17.5px;
 
   /* colors */
   --oui-color-primary: 184 87 244;
@@ -78,12 +78,12 @@
   --oui-gradient-neutral-end: 33 37 51;
 
   /* rounded */
-  --oui-rounded-sm: 2px;
-  --oui-rounded: 4px;
-  --oui-rounded-md: 6px;
-  --oui-rounded-lg: 8px;
-  --oui-rounded-xl: 12px;
-  --oui-rounded-2xl: 16px;
+  --oui-rounded-sm: 3px;
+  --oui-rounded: 5px;
+  --oui-rounded-md: 7px;
+  --oui-rounded-lg: 9px;
+  --oui-rounded-xl: 13px;
+  --oui-rounded-2xl: 17px;
   --oui-rounded-full: 9999px;
 
   /* spacing */
@@ -96,5 +96,5 @@
 
 html, body {
   font-family: 'Manrope', sans-serif !important;
-  font-size: 16.5px !important;
+  font-size: 17.5px !important;
 }
