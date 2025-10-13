@@ -18,7 +18,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_HAS_PRIMARY_LOGO": "true",
   "VITE_HAS_SECONDARY_LOGO": "true",
   "VITE_ENABLED_MENUS": "Trading,Portfolio,Markets,Vaults,Rewards,Leaderboard,Swap",
-  "VITE_CUSTOM_MENUS": "AURA, https://aura.finance/; Discord, https://discord.gg/AuraDexVIP; Telegram, https://telegram.me/AuraDex; Twitter, https://x.com/AuraDex",
+  "VITE_CUSTOM_MENUS": "AURA, https://aura.finance/; Discord, https://discord.gg/AuraDexVIP; Telegram, https://telegram.me/AuraDex; X, https://x.com/AuraDex_Finance",
   "VITE_ENABLE_CAMPAIGNS": "true",
   "VITE_TELEGRAM_URL": "https://telegram.me/AuraDex",
   "VITE_DISCORD_URL": "https://x.com/AuraDex_Finance",
