@@ -11,7 +11,7 @@
   --oui-color-link: 208 133 255;
   --oui-color-link-light: 223 168 255;
 
-  --oui-color-secondary: 32 1 70;
+  --oui-color-secondary: 32 1 70; /* Roxo Escuro */
   --oui-color-tertiary: 214 197 247;
   --oui-color-quaternary: 225 189 255;
 
@@ -20,7 +20,7 @@
   --oui-color-danger-darken: 255 163 201;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 34 205 169;
+  --oui-color-success: 34 205 169; /* Verde */
   --oui-color-success-light: 90 234 194;
   --oui-color-success-darken: 0 143 120;
   --oui-color-success-contrast: 255 255 255;
@@ -97,4 +97,23 @@
 html, body {
   font-family: 'Manrope', sans-serif !important;
   font-size: 17.5px !important;
+}
+
+/* === REGRAS ADICIONADAS === */
+
+/* Cor do texto do botão "Conect Wallet" - Roxo Escuro */
+.connect-wallet-button {
+  color: rgb(var(--oui-color-secondary)) !important; 
+}
+
+/* Estilos para o botão "Buy" - Fundo Verde */
+.buy-button {
+  background-color: rgb(var(--oui-color-success)) !important;
+  color: rgb(var(--oui-color-success-contrast)) !important; /* Cor do texto: Branco */
+}
+
+/* Estilos para o botão "Sell" - Fundo Vermelho/Rosa Choque */
+.sell-button {
+  background-color: rgb(var(--oui-color-danger)) !important;
+  color: rgb(var(--oui-color-danger-contrast)) !important; /* Cor do texto: Branco */
 }
